@@ -1,6 +1,12 @@
+import sys
 import unittest
 
-from JsonFormatterUtils import parse_json, serialize_json
+import sublime_lib_mock
+import sublime_plugin_lib_mock
+sys.modules['sublime'] = sublime_lib_mock
+sys.modules['sublime_plugin'] = sublime_plugin_lib_mock
+
+from JsonFormatter import parse_json, serialize_json
 
 class UtilsTests(unittest.TestCase):
   def test_cyrillic_parsing(self):
