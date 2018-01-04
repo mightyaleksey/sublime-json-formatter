@@ -1,3 +1,14 @@
 [
-  {"caption": "JSON: Minify", "command": "minify_json"}
+  {
+    "caption": "JSON: Minify",
+    "command": "minify_json"
+  },
+  {
+    "caption": "JSON: Prettify",
+    "command": "prettify_json"
+  },
+  {
+    "caption": "JSON: Prettify and Sort Keys",
+    "command": "prettify_json_and_sort_keys"
+  }
 ]
