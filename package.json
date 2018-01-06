@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "test": "python3 -m unittest JsonFormatterTest.py"
+    "install": "sh install.sh",
+    "test": "python3 -m unittest ConvertCaseTest.py"
   }
 }
